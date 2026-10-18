@@ -1,0 +1,20 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+.vscode/
+
+data/raw/
+data/processed/
+
+# Exclude archives & raw array dumps
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.npz
+*.npy

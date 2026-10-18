@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Ashutosh-Dwibedi <ashutoshdwibedi555@gmail.com>"]
+channels = ["pytorch", "nvidia","conda-forge"]
+name = "solarPV-defect-detection"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+pytorch = "2.5.1.*"
+torchvision = "0.20.1.*"
+pytorch-cuda = "12.1.*"
+jupyterlab = ">=4.6.4,<5"
+numpy = ">=1.26,<3"
+pandas = ">=3.0.6,<4"
+matplotlib = ">=3.11.2,<4"
+pillow = ">=12.3.0,<13"
+scikit-learn = ">=1.9.1,<2"
