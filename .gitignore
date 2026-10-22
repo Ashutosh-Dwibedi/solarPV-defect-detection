@@ -9,6 +9,7 @@
 
 data/raw/
 data/processed/
+src/checkpoints
 
 # Exclude archives & raw array dumps
 *.zip
@@ -18,3 +19,14 @@ data/processed/
 *.rar
 *.npz
 *.npy
+
+# Model checkpoints and weights checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Training artifacts and temporary files
+runs/
+wandb/
+*.log
